@@ -1,0 +1,37 @@
+/* Hero2=3.css */
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.btn-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}   
+.btn-style button {
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight:400;
+  letter-spacing:1.5px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.btn-style button:nth-child(2) {
+  background-color: transparent;
+  color: #0066cc;
+  border: 1px solid #0177df;
+  padding:10px 20px;
+}
+
+.btn-style button:nth-child(2):hover {
+  background-color: #0177df;
+  color: white;
+}

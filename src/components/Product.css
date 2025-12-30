@@ -1,0 +1,77 @@
+.hero-ipad{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.ft-items{
+    width:934.5px;
+    height: 580px;
+    position: relative;
+}
+.ft-title{
+    position: absolute;
+    top: 10%;
+    left:40%;
+    width: 200px;
+}
+.ft-items p{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    font-size: 20px;
+}
+
+.ft-title h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.ft-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tradefix{
+  text-align: center;
+}
+
+.btn-out {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}   
+.btn-out button {
+  padding: 5px 10px;
+  font-size: 17px;
+  font-weight:400;
+  letter-spacing:1.5px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.btn-out button:nth-child(2) {
+  background-color: transparent;
+  color: #0066cc;
+  border: 1px solid #0177df;
+  padding:5px 10px;
+}
+
+.btn-out button:nth-child(2):hover {
+  background-color: #0177df;
+  color: white;
+}
