@@ -105,7 +105,8 @@ const Hero6 = () => {
                   <h3 className="hero6-text-title">{slide.title}</h3>
                   <p className="hero6-text-description">{slide.description}</p>
                 </div>
-              ) : (
+              ):(
+
                 <div
                   className="hero6-image-slide"
                   style={{ backgroundColor: slide.bgColor }}
