@@ -112,7 +112,7 @@ const Hero6 = () => {
                   style={{ backgroundColor: slide.bgColor }}
                 >
                 <video className="hero6-slide-img"  autoPlay muted loop>
-                    <source src={slide.video} alt={slide.title} />
+                    <source src={slide.video} alt={slide.title}/>
                 </video>
                   <div className="hero6-slide-content">
                     <button className="hero6-watch-button">

@@ -73,7 +73,7 @@ const Hero5 = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 7000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);
